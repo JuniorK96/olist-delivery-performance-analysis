@@ -67,6 +67,8 @@ The 2.3 vs 4.2 review score gap is the single most actionable insight in this an
     ├── data/                         # Exported query results (CSV)
     └── README.md
 
+---
+
 ## Data Pipeline
 1. **Data Setup** — Downloaded 9 CSV tables from Kaggle, uploaded to BigQuery as `olist_raw` dataset
 2. **Python Cleaning** — Merged tables, handled nulls, fixed date formats, and engineered delivery features using pandas
