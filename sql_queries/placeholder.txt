@@ -1,0 +1,1 @@
+creating SQL queries folder
