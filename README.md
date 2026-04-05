@@ -58,7 +58,6 @@ The 2.3 vs 4.2 review score gap is the single most actionable insight in this an
 
     ├── olist_cleaning.ipynb          # Python data cleaning and feature engineering
     ├── sql_queries/                  # BigQuery SQL analysis scripts
-    │   ├── on_time_by_state.sql
     │   ├── on_time_by_category.sql
     │   ├── monthly_trends.sql
     │   ├── delay_vs_reviews.sql
@@ -72,7 +71,7 @@ The 2.3 vs 4.2 review score gap is the single most actionable insight in this an
 ## Data Pipeline
 1. **Data Setup** — Downloaded 9 CSV tables from Kaggle, uploaded to BigQuery as `olist_raw` dataset
 2. **Python Cleaning** — Merged tables, handled nulls, fixed date formats, and engineered delivery features using pandas
-3. **SQL Analysis** — Ran 6 analytical queries in BigQuery covering delivery performance by state, category, time, customer location, and freight
+3. **SQL Analysis** — Ran 5 analytical queries in BigQuery covering delivery performance by state, category, monthly trends, review score impact, and freight cost
 4. **Visualisation** — Built interactive Tableau dashboard published to Tableau Public
 
 ---
